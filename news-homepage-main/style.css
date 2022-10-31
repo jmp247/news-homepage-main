@@ -1,0 +1,115 @@
+body {
+
+    margin: auto;
+    width: 80%;
+    --font-family: inter;
+
+}
+
+.navbar
+{   
+    display: inline;
+    width: 100%;
+    position: relative;
+    text-align: right;
+    
+}
+
+.logo
+{
+    display: inline;
+    text-align: left;
+}
+
+li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    
+}
+
+li a 
+{
+    text-decoration: none;
+}
+
+li a:hover {
+    color: orange;
+}
+
+.top-container
+{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 60% 40%;
+
+}
+
+.banner-bottom
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.new-headlines
+{
+       background-color: black;
+       color: white;
+       padding: 0px 15px 15px 15px;
+       margin: 5px;
+}
+
+h2
+{
+    color: hsl(35, 77%, 62%);
+}
+
+hr {
+    
+    
+    border: 0px;
+    border-top: 1px solid gray;
+}
+
+.left
+{
+    padding: 5px;
+}
+
+.banner-img
+{
+    width: 100%;
+}
+
+
+div
+{
+    --border: 1px solid blue;
+}
+
+button{
+    display: block;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    border: 0px;
+    padding: 5px;
+}
+
+.text {
+    color: hsl(233, 8%, 79%);
+    font-size: 12px;
+}
+
+.bottom-headlines
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.news-item
+{
+    
+}
