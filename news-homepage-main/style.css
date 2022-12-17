@@ -62,6 +62,12 @@ li a:hover {
        margin: 5px;
 }
 
+h1, .header
+{
+    font-size: 1.5em;
+
+}
+
 h2
 {
     color: hsl(35, 77%, 62%);
@@ -127,8 +133,7 @@ button{
 {
     display: flex;
     flex-direction: row;
-    
-    gap: 10px;
+    gap: 1px;
 }
 
 .news-item
@@ -137,7 +142,14 @@ button{
     
 }
 
+.news-item-side
+{
+    width: 100%;
+    flex: 1 auto;
+    
+}
+
 .icon {
-    width: 75px;
-    float: left;
+    height: 100%;
+    
 }
